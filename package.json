@@ -1,0 +1,27 @@
+{
+  "name": "starwars-names",
+  "version": "1.0.0",
+  "description": "Get random Star Wars names",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcuevas/starwars-names.git"
+  },
+  "keywords": [
+    "radom",
+    "star",
+    "wars"
+  ],
+  "author": "Dario Cuevas <dario.cuevas@gmail.com> (http://github.com/dcuevas)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dcuevas/starwars-names/issues"
+  },
+  "homepage": "https://github.com/dcuevas/starwars-names#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
+}
