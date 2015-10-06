@@ -26,7 +26,7 @@ describe('starwars-names', function() {
 
     it('should return an array of random items if passed an argument', function() {
       var randomItems = starWars.random(3);
-      expect(randomItems).to.have.length(3);
+      expect(randomItems).to.have.length(4);
       randomItems.forEach(function(item) {
         expect(starWars.all).to.include(item);
       });
